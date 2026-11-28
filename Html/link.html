@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML</title>
+    <style>
+a:link {
+  color: green;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+a:visited {
+  color: pink;
+  background-color: transparent;
+  text-decoration: none;
+}
+a:link, a:visited {
+  background-color: #f44336;
+  color: white;
+  padding: 15px 25px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+}
+
+a:hover, a:active {
+  background-color: red;
+}
+
+a:hover {
+  color: red;
+  background-color: transparent;
+  text-decoration: underline;
+}
+
+a:active {
+  color: yellow;
+  background-color: transparent;
+  text-decoration: underline;
+}
+</style>
+</head>
+<body>
+   <h1>Link in HTML?</h1> 
+   <ul>
+    <li>The link's destination is specified in the href attribute. </li>
+
+<li>Attributes are used to provide additional information about HTML elements.</li>
+
+<li>You will learn more about attributes in a later chapter.</li>  </ul>
+<a href="https://www.w3schools.com/" target="_blank">This is for more study.</a>
+<h1>HTML Links - The target Attribute</h1>
+<pre>By default, the linked page will be displayed in the current browser window. To change this, you must specify another target for the link.
+
+The target attribute specifies where to open the linked document.
+
+The target attribute can have one of the following values:
+
+_self - Default. Opens the document in the same window/tab as it was clicked
+_blank - Opens the document in a new window or tab
+_parent - Opens the document in the parent frame
+_top - Opens the document in the full body of the window</pre>
+<ul>
+   <dl><dt><li>Absolute url</li></dt>
+    <dd>-Absolute url is the online/website url.</dd>
+
+    <dd><a href="https://www.w3schools.com/">This is for absolute url- w3school</a></dd>
+
+    <dt><li>Relative url</li></dt>
+<dd>-Relative url use for url from your own pc file path.</dd>
+<dd><a href="C:\Users\hp\Documents\GitHub\Full_stack_tutorial\dilshan.webp">This is for relative url-img</a></dd>
+</dl> 
+    
+</ul>
+<h1>link title-</h1>
+<p>link title use for give more information for website.</p>
+<a href="https://www.w3schools.com/" title="check for more knownledge for more skills"> with link title</a>
+<h1>Link to an email using anchor tag-</h1>  
+ <h4></h4><a href="mailto:dilshanansari603@gmail.com">send mail</a></h4>
+ <h1>Botton as a link -</h1>
+ <button onclick="document.location='default.asp'">HTML Tutorial</button>
+</body>
+</html>
